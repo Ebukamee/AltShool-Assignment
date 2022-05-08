@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment A3 - Creating a Contact Page</title>
+</head>
+<body>
+  <h1>Contact Page</h1>
+  <form>
+    <label for="name">Name</label>
+    <input type="text" name="name" placeholder="Enter your name" required>
+    <br>
+    <label for="email">Email</label>
+    <input type="email" name="email" placeholder="Enter your email" required>
+    <br>
+    <label for="message"></label>
+    <textarea name="message" placeholder="What's your message" cols="30" rows="10" required></textarea>
+    <br>
+    <label for="priority">What's the priority?</label>
+    <select name="priority" id="priority" required>
+       <option value="">Select Choice</option>
+       <option value="urgent">Urgent</option>
+       <option value="not-urgent">Not Urgent</option>
+       <option value="less-urgent">Less Urgent</option>
+       <option value="joking">Joking</option>
+    </select>
+     <br>
+     <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
